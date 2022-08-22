@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(251,103,40);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div#interface {
+background-color: white;
+width: 850px;
+padding: 40px;
+margin: 0px auto 0px auto;
+}
+
+header#cabecalho {
+background-color: rgb(251,103,40) ;
+margin: -59px -40px 0px -40px;
+padding-top: 60px; /*espaco acima da frase inicial onde entrara barra de pesquisa*/
+
+}
+
+#divBusca {
+    border: solid blue 1px;
+    border-radius: 2px;
+    width: 370px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -23px;
+}
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 330px;
+}
+
+div#busca {
+    color: grey;
+    
+}
+
+div#icones { 
+position: absolute;
+margin-left: 780px;
+margin-top: -55px;
+color: white;
+padding-left: 5px;
+}
+div#icones span {
+    font-size: 40px;
+}
+
+header#cabecalho h1 {
+font-family: 'Aboreto', cursive;
+color: white;
+font-size: 25pt;
+position: absolute;
+margin-top: -15px;
+margin-left: 15px;
+
+}
+header#cabecalho h3 {
+color: white;
+text-align: center;
+}
+
+nav#menu {
+display: block;
+}
+
+nav#menu ul {
+list-style: none;
+padding: 5px;
+margin: 0px;
+background-color: rgb(16,74,223);
+text-align: center;
+
+}
+nav#menu li {
+display: inline-block;
+padding: 0px 20px 0px 20px;
+}
+
+/*
+div.container {
+    display:inline-block;
+}
+figure.foto-legenda {
+border: 3px solid black;
+background-color: gray;
+box-shadow:1px 1px 1px 1px rgb(133, 138, 133) ; 
+position: relative;
+margin: 10px 40px 20px 700px;
+
+}
+figure.foto-legenda img {
+width: 170px;
+height: 230px;
+border-bottom: 3px solid black;
+
+
+}
+figure.foto-legenda figcaption{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    
+} */
+
+p {
+    text-align: justify;
+    text-indent: 40px; 
+}
+a {
+    color: white; 
+    text-decoration:none;
+}
+
+footer#rodape {
+    background-color: rgb(16,74,223);
+    color: white;
+    position: relative;
+    margin: 0px -90px -40px -90px;
+    padding: 3px;
+}
