@@ -1,8 +1,15 @@
 @charset "UTF-8";
+
 body {
     background-color: rgb(251,103,40);
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+main {
+    text-align: justify;
+    position: relative;
+    width: 100%;
 }
 
 div#interface {
@@ -36,7 +43,7 @@ padding-top: 60px; /*espaco acima da frase inicial onde entrara barra de pesquis
     font-style: italic;
     font-size: 18px;
     border: none;
-    height: 32px;
+    height: 31px;
     width: 330px;
 }
 
@@ -86,19 +93,62 @@ nav#menu li {
 display: inline-block;
 padding: 0px 20px 0px 20px;
 }
+nav#menuLateral ul {
+    list-style: none;
+    text-align: center;
+   
+}
+nav#menuLateral li {
+text-align: center;
+margin-left: -30px;
+padding-bottom: 10px;
+}
 
-/*
-div.container {
+blockquote{
+    padding: 10px;
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(206,202,202);
+    border: 10px solid #7a7a7a;
+    display: block;
+    margin: 0 5%;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+cite {
+    display: block;
+    margin: 15px 5px 3px 0px;
+   line-height: 20px;
+    text-align: right
+}
+.divisaoColuna {
+    float: left;
+    width: 40%;
+   
+    }
+
+aside {
+float: right;
+margin-right: 50px;
+width: 50%;
+}
+
+nav#menuLateral {
     display:inline-block;
+    background-color: transparent;
 }
 figure.foto-legenda {
+    position: absolute;
+    top: 140px;
+    right: 180px;
 border: 3px solid black;
-background-color: gray;
+background-color: blue;
 box-shadow:1px 1px 1px 1px rgb(133, 138, 133) ; 
-position: relative;
 margin: 10px 40px 20px 700px;
-
 }
+
 figure.foto-legenda img {
 width: 170px;
 height: 230px;
@@ -112,11 +162,12 @@ figure.foto-legenda figcaption{
     font-size: 12pt;
     text-align: center;
     
-} */
+} 
 
 p {
     text-align: justify;
     text-indent: 40px; 
+   
 }
 a {
     color: white; 
@@ -130,3 +181,28 @@ footer#rodape {
     margin: 0px -90px -40px -90px;
     padding: 3px;
 }
+
+.reduçaoDoTexto {
+    width: 75%;
+    margin-left: 0px;
+}
+
+.icones-sociais li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+   }
+   
+   .icones-sociais a {
+       background-image: url(img/github.png);
+       background-image: url(img/linkedin.png);
+       background-image: url(img/twitter.png);
+       width:40px;
+       height: 40px;
+       display:inline-block;
+   }
+.limpaFloat{
+    clear: both;
+    }
